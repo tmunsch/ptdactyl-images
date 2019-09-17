@@ -6,7 +6,7 @@ FROM        ubuntu:18.04
 
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
-ENV         DEBIAN_FRONTEND noninteractive
+ENV         DEBIAN_FRONTEND interactive
 
 RUN         apt -y update \
             && apt -y upgrade \
